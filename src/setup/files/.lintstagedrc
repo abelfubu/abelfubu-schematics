@@ -1,0 +1,7 @@
+{
+  "*.(js|ts|html)": [
+		"eslint --cache --fix",
+		"prettier --write"
+	],
+	"*.scss": "stylelint \"**/*.scss\" --config \"./.stylelintrc\" --syntax \"scss\" --formatter \"verbose\" --max-warnings 0"
+}

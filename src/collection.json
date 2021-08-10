@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "setup": {
+      "description": "Schematic to scafold a project with all prefered tools",
+      "factory": "./setup/index"
+    }
+  }
+}

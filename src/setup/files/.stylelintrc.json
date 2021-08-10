@@ -1,0 +1,11 @@
+{
+  "extends": "stylelint-config-sass-guidelines",
+  "rules": {
+    "number-leading-zero": null,
+    "color-hex-length": null,
+    "max-nesting-depth": 4,
+    "selector-pseudo-element-no-unknown": null,
+    "selector-no-qualifying-type": null,
+    "selector-max-compound-selectors": 5
+  }
+}
